@@ -5,12 +5,12 @@ namespace Chapter2Studio
     {
         public Circle()
         {
-                double radius = double.Parse(Program.userRadius);
-                double area = Math.PI * Math.Pow(radius, 2);
-                double circumference = 2 * Math.PI * radius;
-                double diameter = 2 * radius;
-                double mpg = double.Parse(userMPG);
-                double circlePerGallon = radius / mpg
+            double radius = double.Parse(Program.userRadius);
+            double area = Math.PI * Math.Pow(radius, 2);
+            double circumference = 2 * Math.PI * radius;
+            double diameter = 2 * radius;
+            double mpg = double.Parse(userMPG);
+            double circlePerGallon = radius / mpg
         }
     }
 }
